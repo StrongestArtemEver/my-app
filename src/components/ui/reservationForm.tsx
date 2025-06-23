@@ -111,7 +111,7 @@ export default function ReservationForm() {
         };
 
         try {
-            const res = await fetch("https://artemmmka.app.n8n.cloud/webhook-test/12209e1a-4b3a-4b6e-8d6b-fd0dd482850c", {
+            const res = await fetch("https://makemy.app.n8n.cloud/webhook-test/12209e1a-4b3a-4b6e-8d6b-fd0dd482850c", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(payload),
